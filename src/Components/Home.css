@@ -1,0 +1,257 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&family=Passion+One:wght@400;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Strike&family=Rowdies:wght@300;400;700&display=swap');
+@media screen and (max-width: 480px){
+    .home-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .home{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        padding: 11rem 0 11rem 0;
+        background-image: url('home.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .home-intro{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        padding-bottom: 2rem;
+        padding: 0 2rem 2rem 2rem;
+    }
+    .home-intro h1{
+        font-family: "Poppins", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        font-size: 1.7rem;
+        text-align: center;
+        color: #F6F1F1;
+    }
+    .home-intro p{
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+        text-align: justify;
+        color: #F6F1F1;
+    }
+    .home .buttons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    .buttons a{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        text-decoration: none;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1rem;
+        color: #2C3333;
+        width: 90%;
+        background-color: #F6F1F1;
+        border: solid #F6F1F1 2px;
+        padding: .8rem 0;
+    }
+    .buttons a:hover{
+        background-color: #2C3333;
+        color: #F6F1F1;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .home-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .home{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        padding: 12rem 0 12rem 0;
+        background-image: url('home.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .home-intro{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        padding-bottom: 2rem;
+        padding: 0 2rem 2rem 2rem;
+    }
+    .home-intro h1{
+        font-family: "Poppins", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        font-size: 2rem;
+        text-align: center;
+        color: #F6F1F1;
+    }
+    .home-intro p{
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+        text-align: justify;
+        color: #F6F1F1;
+    }
+    .home .buttons{
+        display: flex;
+        gap: 1rem;
+    }
+    .buttons a{
+        text-decoration: none;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1rem;
+        color: #2C3333;
+        background-color: #F6F1F1;
+        border: solid #F6F1F1 2px;
+        padding: .8rem 2rem;
+    }
+    .buttons a:hover{
+        background-color: #2C3333;
+        color: #F6F1F1;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .home-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .home{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 90%;
+        padding: 12rem 0 12rem 2rem;
+        background-image: url('home.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .home-intro{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        padding-bottom: 2rem;
+    }
+    .home-intro h1{
+        font-family: "Poppins", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        font-size: 2.5rem;
+        color: #F6F1F1;
+        max-width: 80%;
+    }
+    .home-intro p{
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+        text-align: justify;
+        max-width: 40%;
+        color: #F6F1F1;
+    }
+    .home .buttons{
+        display: flex;
+        gap: 1rem;
+    }
+    .buttons a{
+        text-decoration: none;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1rem;
+        color: #2C3333;
+        background-color: #F6F1F1;
+        border: solid #F6F1F1 2px;
+        padding: .8rem 2rem;
+    }
+    .buttons a:hover{
+        background-color: #2C3333;
+        color: #F6F1F1;
+    }
+}
+
+@media screen and (min-width: 1025px){   
+    .home-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .home{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 90%;
+        padding: 12rem 0 12rem 2rem;
+        background-image: url('home.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .home-intro{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        padding-bottom: 2rem;
+    }
+    .home-intro h1{
+        font-family: "Poppins", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        font-size: 3rem;
+        color: #F6F1F1;
+        max-width: 60%;
+    }
+    .home-intro p{
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.2rem;
+        text-align: justify;
+        max-width: 40%;
+        color: #F6F1F1;
+    }
+    .home .buttons{
+        display: flex;
+        gap: 1rem;
+    }
+    .buttons a{
+        text-decoration: none;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1.2rem;
+        color: #2C3333;
+        background-color: #F6F1F1;
+        border: solid #F6F1F1 2px;
+        padding: .8rem 2rem;
+    }
+    .buttons a:hover{
+        background-color: #2C3333;
+        color: #F6F1F1;
+    }
+}
