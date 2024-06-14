@@ -1,0 +1,270 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --color1: #EADBC8;
+    --color2: #F6F4EB;
+    --color3: #F6F5F5;
+    --color4: #B19470;
+    --color5: #EEF7FF;
+    --color6: #272829;
+    --font1: "Roboto", sans-serif;
+    --font2: "Poppins", sans-serif;
+
+
+}
+html {
+    scroll-behavior: smooth;
+  }
+  
+@media screen and (max-width: 480px){
+    .men {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--color2);
+    }
+    .men-intro {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 1rem;
+        padding: 5rem 1rem;
+        background-color: var(--color6);
+        min-height: 40dvh;
+    }
+    .men-intro h1 {
+        font-family: var(--font2);
+        color: var(--color3);
+    }
+    .men-intro p {
+        font-family: var(--font1);
+        color: var(--color3);
+        line-height: 25px;
+        letter-spacing: 2px;
+    }
+    /*-----------SORTING------------*/
+    .sort-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .sort-options {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: .5rem;
+        padding: 5rem 0 0 0;
+    }
+    .sort-options button {
+        font-family: var(--font1);
+        padding: .5rem 1rem;
+        background-color: var(--color1);
+        border: .5px solid var(--color6);
+        border-bottom: solid var(--color6) 5px;
+        border-right: solid var(--color6) 5px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .sort-options button:hover {
+        background-color: var(--color3);
+    }
+
+    /*------------------------------*/
+    
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px){
+    .men {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--color2);
+    }
+    .men-intro {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 1rem;
+        padding: 5rem 1rem;
+        background-color: var(--color6);
+        min-height: 40dvh;
+    }
+    .men-intro h1 {
+        font-family: var(--font2);
+        color: var(--color3);
+    }
+    .men-intro p {
+        font-family: var(--font1);
+        color: var(--color3);
+        line-height: 30px;
+        letter-spacing: 2px;
+    }
+    
+    /*-----------SORTING------------*/
+    .sort-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .sort-options {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: .5rem;
+        padding: 5rem 0 0 0;
+    }
+    .sort-options button {
+        font-family: var(--font1);
+        padding: .5rem 1rem;
+        background-color: var(--color1);
+        border: .5px solid var(--color6);
+        border-bottom: solid var(--color6) 5px;
+        border-right: solid var(--color6) 5px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .sort-options button:hover {
+        background-color: var(--color3);
+    }
+
+    /*------------------------------*/
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 1025px){
+    .men {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--color2);
+    }
+    .men-intro {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 1rem;
+        padding: 5rem 5rem;
+        background-color: var(--color6);
+        min-height: 40dvh;
+    }
+    .men-intro h1 {
+        font-family: var(--font2);
+        color: var(--color3);
+    }
+    .men-intro p {
+        font-family: var(--font1);
+        color: var(--color3);
+        line-height: 30px;
+        letter-spacing: 2px;
+    }
+
+    
+    /*-----------SORTING------------*/
+    .sort-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .sort-options {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        padding: 5rem 0 0 0;
+    }
+    .sort-options button {
+        font-family: var(--font1);
+        padding: .5rem 1rem;
+        background-color: var(--color1);
+        border: .5px solid var(--color6);
+        border-bottom: solid var(--color6) 5px;
+        border-right: solid var(--color6) 5px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .sort-options button:hover {
+        background-color: var(--color3);
+    }
+    /*------------------------------*/
+    
+}
+
+@media screen and (min-width: 1025px){
+    .men {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--color2);
+    }
+    .men-intro {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 1rem;
+        padding: 4rem 10rem;
+        background-color: var(--color6);
+        min-height: 40dvh;
+    }
+    .men-intro h1 {
+        font-family: var(--font2);
+        color: var(--color3);
+    }
+    .men-intro p {
+        font-family: var(--font1);
+        color: var(--color3);
+        line-height: 30px;
+        letter-spacing: 2px;
+    }
+    
+    /*-----------SORTING------------*/
+    .sort-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .sort-options {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        padding: 5rem 0 0 0;
+    }
+    .sort-options button {
+        font-family: var(--font1);
+        padding: .5rem 1rem;
+        background-color: var(--color1);
+        border: .5px solid var(--color6);
+        border-bottom: solid var(--color6) 5px;
+        border-right: solid var(--color6) 5px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .sort-options button:hover {
+        background-color: var(--color3);
+    }
+
+    /*------------------------------*/
+    
+}

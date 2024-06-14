@@ -1,0 +1,518 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --color1: #EADBC8;
+    --color2: #F6F4EB;
+    --color3: #F6F5F5;
+    --color4: #B19470;
+    --color5: #EEF7FF;
+    --color6: #272829;
+    --font1: "Roboto", sans-serif;
+    --font2: "Poppins", sans-serif;
+
+
+}
+html {
+    scroll-behavior: smooth;
+  }
+  
+@media screen and (max-width: 480px){
+    .home {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 90dvh;
+        padding: 5rem 0;
+        background-image: url('./bg.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .home-container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: 1.5rem;
+    }
+    .home-intro {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 1rem;
+        max-width: 70%;
+    }
+    .home-intro h1{
+        font-family: var(--font2);
+        font-weight: 700;
+        font-style: normal;
+        font-size: 2.5rem;
+        text-align: start;
+        color: var(--color5);
+        text-shadow: 2px 3px 2px rgba(0, 0, 0, 1);
+    }
+    .home-intro p {
+        font-family: var(--font1);
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+        text-align: start;
+        color: var(--color5);
+        text-shadow: 2px 3px 2px rgba(0, 0, 0, 1);
+    }
+    .home-intro a {
+        font-family: var(--font1);
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1rem;
+        text-decoration: none;
+        color: var(--color6);
+        background-color: var(--color1);
+        border-radius: 10px;
+        border: solid 1px var(--color6);
+        border-bottom: solid 5px var(--color6);
+        border-right: solid 5px var(--color6);
+        padding: .5rem 1.5rem;
+    }
+    .home-intro a:hover {
+        background-color: var(--color4);
+    }
+    .home-btn {
+        display: flex;
+        gap: 1rem;
+    }
+
+    /*--------------*/
+    .home-shop {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+        padding: 2rem 0;
+        background-color: var(--color6);
+    }
+    .home-men {
+        background-image: url('../pages/sfm.webp');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .home-women {
+        background-image: url('../pages/sfw.webp');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .home-shop-btn {
+        font-family: var(--font1);
+        font-weight: 500;
+        font-size: .8rem;
+        padding: .8rem 1.8rem;
+        border: solid 5px var(--color6);
+        cursor: pointer;
+    }
+
+    /*----------------*/
+    .home-qoute {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 3rem 0;
+        background-color: var(--color6);
+    }
+    .home-qoute h1 {
+        font-family: var(--font1);
+        font-size: 2rem;
+        font-weight: 700;
+        color: var(--color3);
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px){
+    .home {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 90dvh;
+        padding: 5rem 0;
+        background-image: url('./bg.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .home-container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: 3rem;
+    }
+    .home-intro {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 1rem;
+        max-width: 70%;
+    }
+    .home-intro h1{
+        font-family: var(--font2);
+        font-weight: 700;
+        font-style: normal;
+        font-size: 3rem;
+        text-align: start;
+        color: var(--color5);
+        text-shadow: 2px 3px 2px rgba(0, 0, 0, 1);
+    }
+    .home-intro p {
+        font-family: var(--font1);
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+        text-align: start;
+        color: var(--color5);
+        text-shadow: 2px 3px 2px rgba(0, 0, 0, 1);
+    }
+    .home-intro a {
+        font-family: var(--font1);
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1rem;
+        text-decoration: none;
+        color: var(--color6);
+        background-color: var(--color1);
+        border-radius: 10px;
+        border: solid 1px var(--color6);
+        border-bottom: solid 5px var(--color6);
+        border-right: solid 5px var(--color6);
+        padding: .5rem 1.5rem;
+    }
+    .home-intro a:hover {
+        background-color: var(--color4);
+    }
+    .home-btn {
+        display: flex;
+        gap: 1rem;
+    }
+    /*--------------*/
+    .home-shop {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 2rem 0;
+        background-color: var(--color6);
+    }
+    .home-men {
+        background-image: url('../pages/sfm.webp');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .home-women {
+        background-image: url('../pages/sfw.webp');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .home-shop-btn {
+        font-family: var(--font1);
+        font-weight: 500;
+        font-size: .8rem;
+        padding: .6rem 1.6rem;
+        border: solid 5px var(--color6);
+        cursor: pointer;
+    }
+
+    /*----------------*/
+    .home-qoute {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 3rem 0;
+        background-color: var(--color6);
+    }
+    .home-qoute h1 {
+        font-family: var(--font1);
+        font-size: 2rem;
+        font-weight: 700;
+        color: var(--color3);
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1025px){
+    .home {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 90dvh;
+        padding: 5rem 0;
+        background-image: url('./bg.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .home-container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: 3rem;
+    }
+    .home-intro {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 1rem;
+        max-width: 70%;
+        z-index: 20;
+    }
+    .home-intro h1{
+        font-family: var(--font2);
+        font-weight: 700;
+        font-style: normal;
+        font-size: 4rem;
+        text-align: start;
+        color: var(--color5);
+        text-shadow: 2px 3px 2px rgba(0, 0, 0, 1);
+    }
+    .home-intro p {
+        font-family: var(--font1);
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.2rem;
+        text-align: start;
+        color: var(--color5);
+        text-shadow: 2px 3px 2px rgba(0, 0, 0, 1);
+    }
+    .home-intro a {
+        font-family: var(--font1);
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1.5rem;
+        text-decoration: none;
+        color: var(--color6);
+        background-color: var(--color1);
+        border-radius: 10px;
+        border: solid 1px var(--color6);
+        border-bottom: solid 5px var(--color6);
+        border-right: solid 5px var(--color6);
+        padding: .5rem 1.5rem;
+    }
+    .home-intro a:hover {
+        background-color: var(--color4);
+    }
+    .home-btn {
+        display: flex;
+        gap: 1rem;
+    }
+    
+    /*--------------*/
+    .home-shop {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 2rem 0;
+        background-color: var(--color6);
+    }
+    .home-men {
+        background-image: url('../pages/sfm.webp');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 350px;
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .home-women {
+        background-image: url('../pages/sfw.webp');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 350px;
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .home-shop-btn {
+        font-family: var(--font1);
+        font-weight: 500;
+        font-size: 1rem;
+        padding: 1rem 2rem;
+        border: solid 5px var(--color6);
+        cursor: pointer;
+    }
+
+    /*----------------*/
+    .home-qoute {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 3rem 0;
+        background-color: var(--color6);
+    }
+    .home-qoute h1 {
+        font-family: var(--font1);
+        font-size: 2rem;
+        font-weight: 700;
+        color: var(--color3);
+    }
+}
+
+@media screen and (min-width: 1025px){
+    .home {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 90dvh;
+        padding: 5rem 0 5rem 0;
+        background-image: url('./bg.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .home-container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 8rem;
+    }
+    .home-intro {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 1rem;
+        max-width: 60%;
+        z-index: 20;
+    }
+    .home-intro h1{
+        font-family: var(--font2);
+        font-weight: 700;
+        font-style: normal;
+        font-size: 4rem;
+        text-align: start;
+        color: var(--color5);
+        text-shadow: 2px 3px 2px rgba(0, 0, 0, 1);
+    }
+    .home-intro p {
+        font-family: var(--font1);
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.2rem;
+        text-align: start;
+        color: var(--color5);
+        text-shadow: 2px 3px 2px rgba(0, 0, 0, 1);
+    }
+    .home-intro a {
+        font-family: var(--font1);
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1.5rem;
+        text-decoration: none;
+        color: var(--color6);
+        background-color: var(--color1);
+        border-radius: 10px;
+        border: solid 1px var(--color6);
+        border-bottom: solid 5px var(--color6);
+        border-right: solid 5px var(--color6);
+        padding: .5rem 1.5rem;
+    }
+    .home-intro a:hover {
+        background-color: var(--color4);
+    }
+    .home-btn {
+        display: flex;
+        gap: 1rem;
+    }
+
+    /*--------------*/
+    .home-shop {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        padding: 2rem 0;
+        background-color: var(--color6);
+    }
+    .home-men {
+        background-image: url('../pages/sfm.webp');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+        width: 450px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .home-women {
+        background-image: url('../pages/sfw.webp');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+        width: 450px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .home-shop-btn {
+        font-family: var(--font1);
+        font-weight: 500;
+        font-size: 1rem;
+        padding: 1rem 2rem;
+        border: solid 5px var(--color6);
+        cursor: pointer;
+    }
+
+    /*----------------*/
+    .home-qoute {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 3rem 0;
+        background-color: var(--color6);
+    }
+    .home-qoute h1 {
+        font-family: var(--font1);
+        font-size: 2rem;
+        font-weight: 700;
+        color: var(--color3);
+    }
+
+}
